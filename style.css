@@ -395,6 +395,29 @@ img{
 	}
 }
 
+@media (max-width: 768px) {
+  /* カラムを縦並びに */
+  .news-contents {
+    flex-direction: column;
+  }
+
+  /* 各要素を全幅に */
+  .post,
+  .sidebar {
+    width: 100%;
+  }
+
+  /* 左の広告画像などは非表示 */
+  .ad {
+    display: none;
+  }
+
+  /* sidebarのpaddingやmargin調整（必要に応じて） */
+  .sidebar {
+    margin-top: 2rem;
+  }
+}
+
 
 
 
