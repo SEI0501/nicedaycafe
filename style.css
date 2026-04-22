@@ -11,6 +11,11 @@ body{
     color:#432;
 }
 
+.background-wallpaper{
+	background-image:url(background-wallpaper-one.png);
+}
+
+
 a{
 text-decoration:none;
 }
