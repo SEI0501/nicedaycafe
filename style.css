@@ -13,6 +13,9 @@ body{
 
 .background-wallpaper{
 	background-image:url(background-wallpaper-one.png);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
 }
 
 
